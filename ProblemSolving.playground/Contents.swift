@@ -51,3 +51,25 @@ func iterativeFib (_ n: Int) -> Int {
 iterativeFib(6)
 
 
+func iterativeFibonacciSequence(_ n: Int) -> [Int] {
+    var array = [0, 1]
+
+    while array.count <= n {
+        array.append(array[array.count - 1] + array[array.count - 2])
+    }
+    return array
+}
+
+iterativeFibonacciSequence(9)
+
+ func recuFib (_ num: Int) -> Int {
+     var series = [0, 1, 1]
+     if num < series.count {
+         return series[num]
+     }
+
+     let result = recuFib(num - 1) + recuFib(num - 2)
+     series.append(result)
+     return result
+ }
+recuFib(9)
