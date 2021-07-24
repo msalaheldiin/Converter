@@ -1,0 +1,13 @@
+/* 
+  Answer Questions.strings
+  CurrencyConverter
+
+  Created by Mahmoud Salaheldin on 07/24/21.
+  Copyright © 2021 Mahmoud Salaheldin. All rights reserved.
+
+-------------------------------------------------------------------------------------------
+Q2: What architecture did you use and why ?
+
+Answer2: MMVM for Clear Architecure and less module dependencies between layers and avoiding
+         massive view controller problems caused by MVC although because it's in the requirements of the task.
+-------------------------------------------------------------------------------------------
